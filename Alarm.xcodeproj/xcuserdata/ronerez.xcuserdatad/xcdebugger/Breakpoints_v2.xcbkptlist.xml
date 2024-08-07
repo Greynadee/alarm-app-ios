@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "09CCA620-7049-4544-9C47-981F781CAC9B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "527AFC72-BA32-4BDE-BCAD-2DB10582A1EB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alarm/Views/Main Views/ChooseAlarmView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "ChooseAlarmView"
+            landmarkType = "14">
+            <Locations>
+               <Location
+                  uuid = "527AFC72-BA32-4BDE-BCAD-2DB10582A1EB - c889ae9ad15ac68d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alarm.ChooseAlarmView.lnManager.getter : Alarm.LocalNotificationManager"
+                  moduleName = "Alarm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronerez/Library/Mobile%20Documents/com~apple~CloudDocs/iOS%202022/Alarm/Alarm/Views/Main%20Views/ChooseAlarmView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "91">
+               </Location>
+               <Location
+                  uuid = "527AFC72-BA32-4BDE-BCAD-2DB10582A1EB - 924a75a4647b6a93"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Alarm.ChooseAlarmView.$lnManager.getter : SwiftUI.EnvironmentObject&lt;Alarm.LocalNotificationManager&gt;.Wrapper"
+                  moduleName = "Alarm"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ronerez/Library/Mobile%20Documents/com~apple~CloudDocs/iOS%202022/Alarm/Alarm/Views/Main%20Views/ChooseAlarmView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "10"
+                  endingLineNumber = "10"
+                  offsetFromSymbolStart = "91">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "716A988D-0D89-4134-ADD8-E24340302EC1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alarm/Views/Unused Views/Commented out code.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B658973-70A8-43A0-96D5-D2E1F03C699D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Alarm/Views/Supporting Views/SelectView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

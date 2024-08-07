@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B91866622928D4D1000A9F14 /* LocalNotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91866612928D4D1000A9F14 /* LocalNotificationManager.swift */; };
+		B9186677292931B9000A9F14 /* Sound Wake up.aiff in Resources */ = {isa = PBXBuildFile; fileRef = B9186663292931AE000A9F14 /* Sound Wake up.aiff */; };
+		B9186679292931B9000A9F14 /* bird voices.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9186665292931AF000A9F14 /* bird voices.mp3 */; };
+		B918667C292931B9000A9F14 /* forest with cuckoo birds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9186668292931B0000A9F14 /* forest with cuckoo birds.mp3 */; };
+		B918667E292931B9000A9F14 /* soft rain ambient.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B918666A292931B2000A9F14 /* soft rain ambient.mp3 */; };
+		B918667F292931B9000A9F14 /* the beat of nature.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B918666B292931B3000A9F14 /* the beat of nature.mp3 */; };
+		B9186681292931B9000A9F14 /* screeching owl.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B918666D292931B4000A9F14 /* screeching owl.mp3 */; };
+		B9186682292931B9000A9F14 /* forest birds sweden.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B918666E292931B4000A9F14 /* forest birds sweden.mp3 */; };
+		B9186683292931B9000A9F14 /* waterfall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B918666F292931B6000A9F14 /* waterfall.mp3 */; };
+		B9186687292931B9000A9F14 /* night ambience.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9186673292931B8000A9F14 /* night ambience.mp3 */; };
+		B9186688292931B9000A9F14 /* Lagrima.aiff in Resources */ = {isa = PBXBuildFile; fileRef = B9186674292931B8000A9F14 /* Lagrima.aiff */; };
+		B9186689292931B9000A9F14 /* owl hooting.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9186675292931B9000A9F14 /* owl hooting.mp3 */; };
+		B918668A292931B9000A9F14 /* bird forest.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9186676292931B9000A9F14 /* bird forest.mp3 */; };
+		B918668C29293AD5000A9F14 /* Play Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = B918668B29293AD5000A9F14 /* Play Sound.swift */; };
+		B926990E291660C700586B3B /* AddEditCircularAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926990D291660C700586B3B /* AddEditCircularAlarmView.swift */; };
+		B9269910291661A700586B3B /* CircularTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926990F291661A700586B3B /* CircularTimeView.swift */; };
+		B926991329169EDA00586B3B /* CentralDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926991229169EDA00586B3B /* CentralDatePickerView.swift */; };
+		B92699152916A86100586B3B /* TimeArcView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92699142916A86100586B3B /* TimeArcView.swift */; };
+		B92699172916E60100586B3B /* DisplayIconOnCircularTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92699162916E60100586B3B /* DisplayIconOnCircularTimeView.swift */; };
+		B926991B2916EEFB00586B3B /* MainAddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B926991A2916EEFB00586B3B /* MainAddEditAlarmView.swift */; };
+		B939FA67293E21F300ED18E0 /* ImageDisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B939FA66293E21F300ED18E0 /* ImageDisplayView.swift */; };
+		B939FA69293E227D00ED18E0 /* SelectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B939FA68293E227D00ED18E0 /* SelectView.swift */; };
+		B968C08929156F7400F5BC70 /* ListOfTheAlarmsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B968C08829156F7400F5BC70 /* ListOfTheAlarmsView.swift */; };
+		B968C08B2915738B00F5BC70 /* AlarmRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B968C08A2915738B00F5BC70 /* AlarmRowView.swift */; };
+		B96E900B298FC2B200A87BAD /* mr_grinch_ravens.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B96E900A298FC2B200A87BAD /* mr_grinch_ravens.mp3 */; };
+		B96E900D298FC30E00A87BAD /* my_baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B96E900C298FC30E00A87BAD /* my_baby.mp3 */; };
+		B96E900F298FC60900A87BAD /* peanuts_ringtone.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B96E900E298FC60900A87BAD /* peanuts_ringtone.mp3 */; };
+		B96E9011298FC67E00A87BAD /* tennessee_whiskey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B96E9010298FC67E00A87BAD /* tennessee_whiskey.mp3 */; };
+		B96E9013298FC7E400A87BAD /* wasted_on_u.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B96E9012298FC7E400A87BAD /* wasted_on_u.mp3 */; };
+		B96E9015298FC85B00A87BAD /* turkey_time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B96E9014298FC85B00A87BAD /* turkey_time.mp3 */; };
+		B96E9017298FC8AF00A87BAD /* welcome_to_my_house.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B96E9016298FC8AF00A87BAD /* welcome_to_my_house.mp3 */; };
+		B96E9019298FC8FA00A87BAD /* christmas_bells.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B96E9018298FC8FA00A87BAD /* christmas_bells.mp3 */; };
+		B97F577A292C313700E2B728 /* ChooseAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97F5779292C313600E2B728 /* ChooseAlarmView.swift */; };
+		B9A4BC832917B41800199390 /* SelectActivityViewExpanded.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9A4BC822917B41800199390 /* SelectActivityViewExpanded.swift */; };
+		B9CCDD3C2911B65900593361 /* AlarmApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD3B2911B65900593361 /* AlarmApp.swift */; };
+		B9CCDD3E2911B65900593361 /* MainAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD3D2911B65900593361 /* MainAlarmView.swift */; };
+		B9CCDD402911B65C00593361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CCDD3F2911B65C00593361 /* Assets.xcassets */; };
+		B9CCDD432911B65C00593361 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9CCDD422911B65C00593361 /* Preview Assets.xcassets */; };
+		B9CCDD562912546A00593361 /* GrayedTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD552912546A00593361 /* GrayedTextView.swift */; };
+		B9CCDD592912598600593361 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9CCDD5B2912598600593361 /* Localizable.strings */; };
+		B9CCDD62291267DF00593361 /* Color Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD61291267DF00593361 /* Color Constants.swift */; };
+		B9CCDD64291274BA00593361 /* TimeOfDayIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD63291274BA00593361 /* TimeOfDayIcon.swift */; };
+		B9CCDD662912754100593361 /* TimeAndDateSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD652912754100593361 /* TimeAndDateSupport.swift */; };
+		B9CCDD682912F3F500593361 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD672912F3F500593361 /* TimeModel.swift */; };
+		B9CCDD6A291302D800593361 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD69291302D800593361 /* AlarmModel.swift */; };
+		B9CCDD6C2913049800593361 /* Activity Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD6B2913049800593361 /* Activity Constants.swift */; };
+		B9CCDD6E2913050200593361 /* Sound Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD6D2913050200593361 /* Sound Constants.swift */; };
+		B9CCDD702913B1F400593361 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD6F2913B1F400593361 /* SplashScreenView.swift */; };
+		B9CCDD722913B35E00593361 /* FourCoolCircles.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD712913B35E00593361 /* FourCoolCircles.swift */; };
+		B9CCDD7529141E1000593361 /* WorkSans-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9CCDD7329141E0900593361 /* WorkSans-Italic-VariableFont_wght.ttf */; };
+		B9CCDD7629141E1000593361 /* WorkSans-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B9CCDD7429141E0F00593361 /* WorkSans-VariableFont_wght.ttf */; };
+		B9CCDD7829141EEE00593361 /* CoolTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD7729141EEE00593361 /* CoolTextView.swift */; };
+		B9CCDD7C2914268200593361 /* Image Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD7B2914268200593361 /* Image Constants.swift */; };
+		B9CCDD7E29142E5B00593361 /* EnableNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD7D29142E5B00593361 /* EnableNotifications.swift */; };
+		B9CCDD8029142FB200593361 /* MainGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD7F29142FB200593361 /* MainGradient.swift */; };
+		B9CCDD822914305100593361 /* Screen Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD812914305100593361 /* Screen Constants.swift */; };
+		B9CCDD842914317B00593361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD832914317B00593361 /* ButtonView.swift */; };
+		B9CCDD862914384600593361 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD852914384600593361 /* AboutView.swift */; };
+		B9CCDD882914595100593361 /* AddEditAlarmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD872914595100593361 /* AddEditAlarmView.swift */; };
+		B9CCDD8A29145A0A00593361 /* YouDidItView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD8929145A0A00593361 /* YouDidItView.swift */; };
+		B9CCDD8C291464C200593361 /* ToBedWakeUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD8B291464C200593361 /* ToBedWakeUpView.swift */; };
+		B9CCDD8E2914745300593361 /* CancelSaveAlarm.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD8D2914745300593361 /* CancelSaveAlarm.swift */; };
+		B9CCDD902914868800593361 /* AlarmToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD8F2914868700593361 /* AlarmToggleView.swift */; };
+		B9CCDD922914870500593361 /* TheToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD912914870500593361 /* TheToggleView.swift */; };
+		B9CCDD942914E3DA00593361 /* TimePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD932914E3D900593361 /* TimePicker.swift */; };
+		B9CCDD962914E64200593361 /* SelectActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CCDD952914E64200593361 /* SelectActivityView.swift */; };
+		B9F7DE392929525300D41859 /* SoundMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F7DE382929525300D41859 /* SoundMenuView.swift */; };
+		B9F7DE3B2929574100D41859 /* Commented out code.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F7DE3A2929574100D41859 /* Commented out code.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B918665A2928CC0B000A9F14 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		B918665B2928CC2F000A9F14 /* fi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fi; path = fi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B918665C2928CC48000A9F14 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B918665D2928CD83000A9F14 /* nb */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = nb; path = nb.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B918665E2928CDB2000A9F14 /* el */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = el; path = el.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B91866612928D4D1000A9F14 /* LocalNotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationManager.swift; sourceTree = "<group>"; };
+		B9186663292931AE000A9F14 /* Sound Wake up.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = "Sound Wake up.aiff"; sourceTree = "<group>"; };
+		B9186665292931AF000A9F14 /* bird voices.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bird voices.mp3"; sourceTree = "<group>"; };
+		B9186668292931B0000A9F14 /* forest with cuckoo birds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "forest with cuckoo birds.mp3"; sourceTree = "<group>"; };
+		B918666A292931B2000A9F14 /* soft rain ambient.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "soft rain ambient.mp3"; sourceTree = "<group>"; };
+		B918666B292931B3000A9F14 /* the beat of nature.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "the beat of nature.mp3"; sourceTree = "<group>"; };
+		B918666D292931B4000A9F14 /* screeching owl.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "screeching owl.mp3"; sourceTree = "<group>"; };
+		B918666E292931B4000A9F14 /* forest birds sweden.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "forest birds sweden.mp3"; sourceTree = "<group>"; };
+		B918666F292931B6000A9F14 /* waterfall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterfall.mp3; sourceTree = "<group>"; };
+		B9186673292931B8000A9F14 /* night ambience.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "night ambience.mp3"; sourceTree = "<group>"; };
+		B9186674292931B8000A9F14 /* Lagrima.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = Lagrima.aiff; sourceTree = "<group>"; };
+		B9186675292931B9000A9F14 /* owl hooting.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "owl hooting.mp3"; sourceTree = "<group>"; };
+		B9186676292931B9000A9F14 /* bird forest.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bird forest.mp3"; sourceTree = "<group>"; };
+		B918668B29293AD5000A9F14 /* Play Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Play Sound.swift"; sourceTree = "<group>"; };
+		B926990D291660C700586B3B /* AddEditCircularAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCircularAlarmView.swift; sourceTree = "<group>"; };
+		B926990F291661A700586B3B /* CircularTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularTimeView.swift; sourceTree = "<group>"; };
+		B926991229169EDA00586B3B /* CentralDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralDatePickerView.swift; sourceTree = "<group>"; };
+		B92699142916A86100586B3B /* TimeArcView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeArcView.swift; sourceTree = "<group>"; };
+		B92699162916E60100586B3B /* DisplayIconOnCircularTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayIconOnCircularTimeView.swift; sourceTree = "<group>"; };
+		B926991A2916EEFB00586B3B /* MainAddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAddEditAlarmView.swift; sourceTree = "<group>"; };
+		B939FA66293E21F300ED18E0 /* ImageDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDisplayView.swift; sourceTree = "<group>"; };
+		B939FA68293E227D00ED18E0 /* SelectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectView.swift; sourceTree = "<group>"; };
+		B968C08829156F7400F5BC70 /* ListOfTheAlarmsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfTheAlarmsView.swift; sourceTree = "<group>"; };
+		B968C08A2915738B00F5BC70 /* AlarmRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmRowView.swift; sourceTree = "<group>"; };
+		B96E900A298FC2B200A87BAD /* mr_grinch_ravens.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mr_grinch_ravens.mp3; sourceTree = "<group>"; };
+		B96E900C298FC30E00A87BAD /* my_baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = my_baby.mp3; sourceTree = "<group>"; };
+		B96E900E298FC60900A87BAD /* peanuts_ringtone.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = peanuts_ringtone.mp3; sourceTree = "<group>"; };
+		B96E9010298FC67E00A87BAD /* tennessee_whiskey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tennessee_whiskey.mp3; sourceTree = "<group>"; };
+		B96E9012298FC7E400A87BAD /* wasted_on_u.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wasted_on_u.mp3; sourceTree = "<group>"; };
+		B96E9014298FC85B00A87BAD /* turkey_time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = turkey_time.mp3; sourceTree = "<group>"; };
+		B96E9016298FC8AF00A87BAD /* welcome_to_my_house.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = welcome_to_my_house.mp3; sourceTree = "<group>"; };
+		B96E9018298FC8FA00A87BAD /* christmas_bells.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = christmas_bells.mp3; sourceTree = "<group>"; };
+		B97F5779292C313600E2B728 /* ChooseAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseAlarmView.swift; sourceTree = "<group>"; };
+		B9A4BC822917B41800199390 /* SelectActivityViewExpanded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityViewExpanded.swift; sourceTree = "<group>"; };
+		B9CCDD382911B65900593361 /* Alarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9CCDD3B2911B65900593361 /* AlarmApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmApp.swift; sourceTree = "<group>"; };
+		B9CCDD3D2911B65900593361 /* MainAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAlarmView.swift; sourceTree = "<group>"; };
+		B9CCDD3F2911B65C00593361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9CCDD422911B65C00593361 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B9CCDD552912546A00593361 /* GrayedTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrayedTextView.swift; sourceTree = "<group>"; };
+		B9CCDD5A2912598600593361 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9CCDD5C2912599100593361 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9CCDD5D2912599200593361 /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9CCDD5E2912599400593361 /* it */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = it; path = it.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9CCDD5F2912599A00593361 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9CCDD602912599C00593361 /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B9CCDD61291267DF00593361 /* Color Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color Constants.swift"; sourceTree = "<group>"; };
+		B9CCDD63291274BA00593361 /* TimeOfDayIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeOfDayIcon.swift; sourceTree = "<group>"; };
+		B9CCDD652912754100593361 /* TimeAndDateSupport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndDateSupport.swift; sourceTree = "<group>"; };
+		B9CCDD672912F3F500593361 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		B9CCDD69291302D800593361 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		B9CCDD6B2913049800593361 /* Activity Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Activity Constants.swift"; sourceTree = "<group>"; };
+		B9CCDD6D2913050200593361 /* Sound Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Sound Constants.swift"; sourceTree = "<group>"; };
+		B9CCDD6F2913B1F400593361 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		B9CCDD712913B35E00593361 /* FourCoolCircles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourCoolCircles.swift; sourceTree = "<group>"; };
+		B9CCDD7329141E0900593361 /* WorkSans-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		B9CCDD7429141E0F00593361 /* WorkSans-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WorkSans-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		B9CCDD7729141EEE00593361 /* CoolTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoolTextView.swift; sourceTree = "<group>"; };
+		B9CCDD7B2914268200593361 /* Image Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image Constants.swift"; sourceTree = "<group>"; };
+		B9CCDD7D29142E5B00593361 /* EnableNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnableNotifications.swift; sourceTree = "<group>"; };
+		B9CCDD7F29142FB200593361 /* MainGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGradient.swift; sourceTree = "<group>"; };
+		B9CCDD812914305100593361 /* Screen Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Screen Constants.swift"; sourceTree = "<group>"; };
+		B9CCDD832914317B00593361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		B9CCDD852914384600593361 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		B9CCDD872914595100593361 /* AddEditAlarmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditAlarmView.swift; sourceTree = "<group>"; };
+		B9CCDD8929145A0A00593361 /* YouDidItView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YouDidItView.swift; sourceTree = "<group>"; };
+		B9CCDD8B291464C200593361 /* ToBedWakeUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToBedWakeUpView.swift; sourceTree = "<group>"; };
+		B9CCDD8D2914745300593361 /* CancelSaveAlarm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelSaveAlarm.swift; sourceTree = "<group>"; };
+		B9CCDD8F2914868700593361 /* AlarmToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmToggleView.swift; sourceTree = "<group>"; };
+		B9CCDD912914870500593361 /* TheToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheToggleView.swift; sourceTree = "<group>"; };
+		B9CCDD932914E3D900593361 /* TimePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePicker.swift; sourceTree = "<group>"; };
+		B9CCDD952914E64200593361 /* SelectActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectActivityView.swift; sourceTree = "<group>"; };
+		B9F7DE382929525300D41859 /* SoundMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundMenuView.swift; sourceTree = "<group>"; };
+		B9F7DE3A2929574100D41859 /* Commented out code.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Commented out code.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9CCDD352911B65900593361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B926991129169E8600586B3B /* Circular Time View */ = {
+			isa = PBXGroup;
+			children = (
+				B926990F291661A700586B3B /* CircularTimeView.swift */,
+				B92699162916E60100586B3B /* DisplayIconOnCircularTimeView.swift */,
+				B926991229169EDA00586B3B /* CentralDatePickerView.swift */,
+				B92699142916A86100586B3B /* TimeArcView.swift */,
+			);
+			path = "Circular Time View";
+			sourceTree = "<group>";
+		};
+		B9CCDD2F2911B65900593361 = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD3A2911B65900593361 /* Alarm */,
+				B9CCDD392911B65900593361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9CCDD392911B65900593361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD382911B65900593361 /* Alarm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9CCDD3A2911B65900593361 /* Alarm */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD50291253FA00593361 /* Model */,
+				B9CCDD4F291253EB00593361 /* ViewModel */,
+				B9CCDD4E291253DE00593361 /* Views */,
+				B9CCDD4D291253D300593361 /* Constants */,
+				B9CCDD4C291253CB00593361 /* Fonts */,
+				B9CCDD4B291253BB00593361 /* Time And Date */,
+				B9CCDD4A291253B100593361 /* Local Notifications */,
+				B9CCDD492912535500593361 /* Sounds */,
+				B9CCDD3B2911B65900593361 /* AlarmApp.swift */,
+				B9CCDD3F2911B65C00593361 /* Assets.xcassets */,
+				B9CCDD412911B65C00593361 /* Preview Content */,
+				B9CCDD5B2912598600593361 /* Localizable.strings */,
+			);
+			path = Alarm;
+			sourceTree = "<group>";
+		};
+		B9CCDD412911B65C00593361 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD422911B65C00593361 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B9CCDD492912535500593361 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B9186676292931B9000A9F14 /* bird forest.mp3 */,
+				B9186665292931AF000A9F14 /* bird voices.mp3 */,
+				B918666E292931B4000A9F14 /* forest birds sweden.mp3 */,
+				B9186668292931B0000A9F14 /* forest with cuckoo birds.mp3 */,
+				B96E900C298FC30E00A87BAD /* my_baby.mp3 */,
+				B9186674292931B8000A9F14 /* Lagrima.aiff */,
+				B96E900A298FC2B200A87BAD /* mr_grinch_ravens.mp3 */,
+				B9186673292931B8000A9F14 /* night ambience.mp3 */,
+				B9186675292931B9000A9F14 /* owl hooting.mp3 */,
+				B96E900E298FC60900A87BAD /* peanuts_ringtone.mp3 */,
+				B96E9018298FC8FA00A87BAD /* christmas_bells.mp3 */,
+				B918666D292931B4000A9F14 /* screeching owl.mp3 */,
+				B918666A292931B2000A9F14 /* soft rain ambient.mp3 */,
+				B9186663292931AE000A9F14 /* Sound Wake up.aiff */,
+				B96E9010298FC67E00A87BAD /* tennessee_whiskey.mp3 */,
+				B96E9012298FC7E400A87BAD /* wasted_on_u.mp3 */,
+				B918666B292931B3000A9F14 /* the beat of nature.mp3 */,
+				B96E9014298FC85B00A87BAD /* turkey_time.mp3 */,
+				B918666F292931B6000A9F14 /* waterfall.mp3 */,
+				B96E9016298FC8AF00A87BAD /* welcome_to_my_house.mp3 */,
+				B9CCDD6D2913050200593361 /* Sound Constants.swift */,
+				B918668B29293AD5000A9F14 /* Play Sound.swift */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		B9CCDD4A291253B100593361 /* Local Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				B91866612928D4D1000A9F14 /* LocalNotificationManager.swift */,
+			);
+			path = "Local Notifications";
+			sourceTree = "<group>";
+		};
+		B9CCDD4B291253BB00593361 /* Time And Date */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD652912754100593361 /* TimeAndDateSupport.swift */,
+			);
+			path = "Time And Date";
+			sourceTree = "<group>";
+		};
+		B9CCDD4C291253CB00593361 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD7329141E0900593361 /* WorkSans-Italic-VariableFont_wght.ttf */,
+				B9CCDD7429141E0F00593361 /* WorkSans-VariableFont_wght.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B9CCDD4D291253D300593361 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD61291267DF00593361 /* Color Constants.swift */,
+				B9CCDD6B2913049800593361 /* Activity Constants.swift */,
+				B9CCDD7B2914268200593361 /* Image Constants.swift */,
+				B9CCDD812914305100593361 /* Screen Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B9CCDD4E291253DE00593361 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD542912543100593361 /* Unused Views */,
+				B9CCDD532912541F00593361 /* Supporting Views */,
+				B9CCDD522912541300593361 /* Subviews */,
+				B9CCDD512912540B00593361 /* Main Views */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B9CCDD4F291253EB00593361 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B9CCDD50291253FA00593361 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD672912F3F500593361 /* TimeModel.swift */,
+				B9CCDD69291302D800593361 /* AlarmModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9CCDD512912540B00593361 /* Main Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD6F2913B1F400593361 /* SplashScreenView.swift */,
+				B9CCDD3D2911B65900593361 /* MainAlarmView.swift */,
+				B968C08829156F7400F5BC70 /* ListOfTheAlarmsView.swift */,
+				B926991A2916EEFB00586B3B /* MainAddEditAlarmView.swift */,
+				B9CCDD872914595100593361 /* AddEditAlarmView.swift */,
+				B926990D291660C700586B3B /* AddEditCircularAlarmView.swift */,
+				B9CCDD852914384600593361 /* AboutView.swift */,
+				B97F5779292C313600E2B728 /* ChooseAlarmView.swift */,
+			);
+			path = "Main Views";
+			sourceTree = "<group>";
+		};
+		B9CCDD522912541300593361 /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD8929145A0A00593361 /* YouDidItView.swift */,
+				B9CCDD8B291464C200593361 /* ToBedWakeUpView.swift */,
+				B9CCDD7D29142E5B00593361 /* EnableNotifications.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		B9CCDD532912541F00593361 /* Supporting Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9CCDD552912546A00593361 /* GrayedTextView.swift */,
+				B968C08A2915738B00F5BC70 /* AlarmRowView.swift */,
+				B9CCDD8D2914745300593361 /* CancelSaveAlarm.swift */,
+				B9CCDD63291274BA00593361 /* TimeOfDayIcon.swift */,
+				B9CCDD712913B35E00593361 /* FourCoolCircles.swift */,
+				B9CCDD7729141EEE00593361 /* CoolTextView.swift */,
+				B9CCDD7F29142FB200593361 /* MainGradient.swift */,
+				B9CCDD952914E64200593361 /* SelectActivityView.swift */,
+				B9A4BC822917B41800199390 /* SelectActivityViewExpanded.swift */,
+				B9CCDD832914317B00593361 /* ButtonView.swift */,
+				B9CCDD8F2914868700593361 /* AlarmToggleView.swift */,
+				B9CCDD912914870500593361 /* TheToggleView.swift */,
+				B9CCDD932914E3D900593361 /* TimePicker.swift */,
+				B926991129169E8600586B3B /* Circular Time View */,
+				B9F7DE382929525300D41859 /* SoundMenuView.swift */,
+				B939FA66293E21F300ED18E0 /* ImageDisplayView.swift */,
+				B939FA68293E227D00ED18E0 /* SelectView.swift */,
+			);
+			path = "Supporting Views";
+			sourceTree = "<group>";
+		};
+		B9CCDD542912543100593361 /* Unused Views */ = {
+			isa = PBXGroup;
+			children = (
+				B9F7DE3A2929574100D41859 /* Commented out code.swift */,
+			);
+			path = "Unused Views";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9CCDD372911B65900593361 /* Alarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9CCDD462911B65C00593361 /* Build configuration list for PBXNativeTarget "Alarm" */;
+			buildPhases = (
+				B9CCDD342911B65900593361 /* Sources */,
+				B9CCDD352911B65900593361 /* Frameworks */,
+				B9CCDD362911B65900593361 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alarm;
+			productName = Alarm;
+			productReference = B9CCDD382911B65900593361 /* Alarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9CCDD302911B65900593361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					B9CCDD372911B65900593361 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = B9CCDD332911B65900593361 /* Build configuration list for PBXProject "Alarm" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				it,
+				es,
+				de,
+				tr,
+				"pt-BR",
+				fi,
+				ko,
+				nb,
+				el,
+			);
+			mainGroup = B9CCDD2F2911B65900593361;
+			productRefGroup = B9CCDD392911B65900593361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9CCDD372911B65900593361 /* Alarm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9CCDD362911B65900593361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B918667E292931B9000A9F14 /* soft rain ambient.mp3 in Resources */,
+				B96E900B298FC2B200A87BAD /* mr_grinch_ravens.mp3 in Resources */,
+				B918667C292931B9000A9F14 /* forest with cuckoo birds.mp3 in Resources */,
+				B96E900F298FC60900A87BAD /* peanuts_ringtone.mp3 in Resources */,
+				B9186677292931B9000A9F14 /* Sound Wake up.aiff in Resources */,
+				B9186683292931B9000A9F14 /* waterfall.mp3 in Resources */,
+				B9186689292931B9000A9F14 /* owl hooting.mp3 in Resources */,
+				B96E9019298FC8FA00A87BAD /* christmas_bells.mp3 in Resources */,
+				B9CCDD432911B65C00593361 /* Preview Assets.xcassets in Resources */,
+				B96E9015298FC85B00A87BAD /* turkey_time.mp3 in Resources */,
+				B96E9011298FC67E00A87BAD /* tennessee_whiskey.mp3 in Resources */,
+				B9CCDD592912598600593361 /* Localizable.strings in Resources */,
+				B9CCDD402911B65C00593361 /* Assets.xcassets in Resources */,
+				B9CCDD7629141E1000593361 /* WorkSans-VariableFont_wght.ttf in Resources */,
+				B918668A292931B9000A9F14 /* bird forest.mp3 in Resources */,
+				B96E9017298FC8AF00A87BAD /* welcome_to_my_house.mp3 in Resources */,
+				B9CCDD7529141E1000593361 /* WorkSans-Italic-VariableFont_wght.ttf in Resources */,
+				B9186687292931B9000A9F14 /* night ambience.mp3 in Resources */,
+				B96E900D298FC30E00A87BAD /* my_baby.mp3 in Resources */,
+				B9186679292931B9000A9F14 /* bird voices.mp3 in Resources */,
+				B9186682292931B9000A9F14 /* forest birds sweden.mp3 in Resources */,
+				B96E9013298FC7E400A87BAD /* wasted_on_u.mp3 in Resources */,
+				B9186681292931B9000A9F14 /* screeching owl.mp3 in Resources */,
+				B9186688292931B9000A9F14 /* Lagrima.aiff in Resources */,
+				B918667F292931B9000A9F14 /* the beat of nature.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9CCDD342911B65900593361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9CCDD8C291464C200593361 /* ToBedWakeUpView.swift in Sources */,
+				B9CCDD8029142FB200593361 /* MainGradient.swift in Sources */,
+				B9CCDD6E2913050200593361 /* Sound Constants.swift in Sources */,
+				B926990E291660C700586B3B /* AddEditCircularAlarmView.swift in Sources */,
+				B9CCDD62291267DF00593361 /* Color Constants.swift in Sources */,
+				B9CCDD6A291302D800593361 /* AlarmModel.swift in Sources */,
+				B9CCDD882914595100593361 /* AddEditAlarmView.swift in Sources */,
+				B968C08B2915738B00F5BC70 /* AlarmRowView.swift in Sources */,
+				B939FA69293E227D00ED18E0 /* SelectView.swift in Sources */,
+				B9CCDD3E2911B65900593361 /* MainAlarmView.swift in Sources */,
+				B91866622928D4D1000A9F14 /* LocalNotificationManager.swift in Sources */,
+				B9CCDD702913B1F400593361 /* SplashScreenView.swift in Sources */,
+				B9CCDD662912754100593361 /* TimeAndDateSupport.swift in Sources */,
+				B9CCDD7C2914268200593361 /* Image Constants.swift in Sources */,
+				B9A4BC832917B41800199390 /* SelectActivityViewExpanded.swift in Sources */,
+				B9CCDD942914E3DA00593361 /* TimePicker.swift in Sources */,
+				B9CCDD842914317B00593361 /* ButtonView.swift in Sources */,
+				B9CCDD922914870500593361 /* TheToggleView.swift in Sources */,
+				B9CCDD682912F3F500593361 /* TimeModel.swift in Sources */,
+				B9CCDD822914305100593361 /* Screen Constants.swift in Sources */,
+				B9CCDD6C2913049800593361 /* Activity Constants.swift in Sources */,
+				B9269910291661A700586B3B /* CircularTimeView.swift in Sources */,
+				B939FA67293E21F300ED18E0 /* ImageDisplayView.swift in Sources */,
+				B9F7DE392929525300D41859 /* SoundMenuView.swift in Sources */,
+				B92699152916A86100586B3B /* TimeArcView.swift in Sources */,
+				B9CCDD7829141EEE00593361 /* CoolTextView.swift in Sources */,
+				B926991B2916EEFB00586B3B /* MainAddEditAlarmView.swift in Sources */,
+				B918668C29293AD5000A9F14 /* Play Sound.swift in Sources */,
+				B9F7DE3B2929574100D41859 /* Commented out code.swift in Sources */,
+				B968C08929156F7400F5BC70 /* ListOfTheAlarmsView.swift in Sources */,
+				B97F577A292C313700E2B728 /* ChooseAlarmView.swift in Sources */,
+				B9CCDD3C2911B65900593361 /* AlarmApp.swift in Sources */,
+				B926991329169EDA00586B3B /* CentralDatePickerView.swift in Sources */,
+				B9CCDD7E29142E5B00593361 /* EnableNotifications.swift in Sources */,
+				B9CCDD562912546A00593361 /* GrayedTextView.swift in Sources */,
+				B9CCDD902914868800593361 /* AlarmToggleView.swift in Sources */,
+				B9CCDD8E2914745300593361 /* CancelSaveAlarm.swift in Sources */,
+				B9CCDD862914384600593361 /* AboutView.swift in Sources */,
+				B9CCDD722913B35E00593361 /* FourCoolCircles.swift in Sources */,
+				B9CCDD8A29145A0A00593361 /* YouDidItView.swift in Sources */,
+				B92699172916E60100586B3B /* DisplayIconOnCircularTimeView.swift in Sources */,
+				B9CCDD962914E64200593361 /* SelectActivityView.swift in Sources */,
+				B9CCDD64291274BA00593361 /* TimeOfDayIcon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9CCDD5B2912598600593361 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9CCDD5A2912598600593361 /* en */,
+				B9CCDD5C2912599100593361 /* fr */,
+				B9CCDD5D2912599200593361 /* de */,
+				B9CCDD5E2912599400593361 /* it */,
+				B9CCDD5F2912599A00593361 /* es */,
+				B9CCDD602912599C00593361 /* tr */,
+				B918665A2928CC0B000A9F14 /* pt-BR */,
+				B918665B2928CC2F000A9F14 /* fi */,
+				B918665C2928CC48000A9F14 /* ko */,
+				B918665D2928CD83000A9F14 /* nb */,
+				B918665E2928CDB2000A9F14 /* el */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9CCDD442911B65C00593361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9CCDD452911B65C00593361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9CCDD472911B65C00593361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = DHVXX6V9MZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ronerez.Alarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9CCDD482911B65C00593361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Alarm/Preview Content\"";
+				DEVELOPMENT_TEAM = DHVXX6V9MZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ronerez.Alarm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9CCDD332911B65900593361 /* Build configuration list for PBXProject "Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CCDD442911B65C00593361 /* Debug */,
+				B9CCDD452911B65C00593361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9CCDD462911B65C00593361 /* Build configuration list for PBXNativeTarget "Alarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9CCDD472911B65C00593361 /* Debug */,
+				B9CCDD482911B65C00593361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9CCDD302911B65900593361 /* Project object */;
+}
